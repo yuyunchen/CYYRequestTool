@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AEE88A2CC80AFF1D79E5125 /* libPods-CYYRequestToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F3EEB1AA22CC9A744404C7 /* libPods-CYYRequestToolTests.a */; };
 		6EC4B4ED1E5008F100A5E4CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B4EC1E5008F100A5E4CB /* main.m */; };
 		6EC4B4F01E5008F100A5E4CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B4EF1E5008F100A5E4CB /* AppDelegate.m */; };
 		6EC4B4F31E5008F100A5E4CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B4F21E5008F100A5E4CB /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		6EC4B4FB1E5008F100A5E4CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4B4F91E5008F100A5E4CB /* LaunchScreen.storyboard */; };
 		6EC4B5061E5008F100A5E4CB /* CYYRequestToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B5051E5008F100A5E4CB /* CYYRequestToolTests.m */; };
 		6EC4B5111E5008F100A5E4CB /* CYYRequestToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B5101E5008F100A5E4CB /* CYYRequestToolUITests.m */; };
+		6EC4B5201E50097800A5E4CB /* CYYRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4B51F1E50097800A5E4CB /* CYYRequestTool.m */; };
+		9EF8828709AF2FFB6A0BD2EB /* libPods-CYYRequestTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B015517FDABE11231622BA /* libPods-CYYRequestTool.a */; };
+		A90AFD12AC5BF9F74F0C3993 /* libPods-CYYRequestToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0A678BC81E2F6A8E95F035 /* libPods-CYYRequestToolUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F3EEB1AA22CC9A744404C7 /* libPods-CYYRequestToolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYYRequestToolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E1E8C373C3B1A917CE918A /* Pods-CYYRequestTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestTool/Pods-CYYRequestTool.release.xcconfig"; sourceTree = "<group>"; };
+		1135161823224B732F6297EA /* Pods-CYYRequestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestTool/Pods-CYYRequestTool.debug.xcconfig"; sourceTree = "<group>"; };
+		1D5524F0B9E5C183C26F3641 /* Pods-CYYRequestToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestToolUITests/Pods-CYYRequestToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		266DEFB730C69CF6BE4C7E47 /* Pods-CYYRequestToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestToolTests/Pods-CYYRequestToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		54B015517FDABE11231622BA /* libPods-CYYRequestTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYYRequestTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC4B4E81E5008F100A5E4CB /* CYYRequestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYYRequestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC4B4EC1E5008F100A5E4CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EC4B4EE1E5008F100A5E4CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,11 @@
 		6EC4B50C1E5008F100A5E4CB /* CYYRequestToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYYRequestToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC4B5101E5008F100A5E4CB /* CYYRequestToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYRequestToolUITests.m; sourceTree = "<group>"; };
 		6EC4B5121E5008F100A5E4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC4B51E1E50097800A5E4CB /* CYYRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYYRequestTool.h; sourceTree = "<group>"; };
+		6EC4B51F1E50097800A5E4CB /* CYYRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYYRequestTool.m; sourceTree = "<group>"; };
+		8592EC176AAB5FCA884F9B5D /* Pods-CYYRequestToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestToolUITests/Pods-CYYRequestToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D8DBE72EBF47774CA04F398 /* Pods-CYYRequestToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYRequestToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYYRequestToolTests/Pods-CYYRequestToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0A678BC81E2F6A8E95F035 /* libPods-CYYRequestToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYYRequestToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF8828709AF2FFB6A0BD2EB /* libPods-CYYRequestTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AEE88A2CC80AFF1D79E5125 /* libPods-CYYRequestToolTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90AFD12AC5BF9F74F0C3993 /* libPods-CYYRequestToolUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				6EC4B5041E5008F100A5E4CB /* CYYRequestToolTests */,
 				6EC4B50F1E5008F100A5E4CB /* CYYRequestToolUITests */,
 				6EC4B4E91E5008F100A5E4CB /* Products */,
+				F68B7154DFB35E5B3BB499C6 /* Pods */,
+				D8A8ECAC44F20C1CB6731AA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,8 @@
 				6EC4B4EF1E5008F100A5E4CB /* AppDelegate.m */,
 				6EC4B4F11E5008F100A5E4CB /* ViewController.h */,
 				6EC4B4F21E5008F100A5E4CB /* ViewController.m */,
+				6EC4B51E1E50097800A5E4CB /* CYYRequestTool.h */,
+				6EC4B51F1E50097800A5E4CB /* CYYRequestTool.m */,
 				6EC4B4F41E5008F100A5E4CB /* Main.storyboard */,
 				6EC4B4F71E5008F100A5E4CB /* Assets.xcassets */,
 				6EC4B4F91E5008F100A5E4CB /* LaunchScreen.storyboard */,
@@ -140,6 +162,29 @@
 			path = CYYRequestToolUITests;
 			sourceTree = "<group>";
 		};
+		D8A8ECAC44F20C1CB6731AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B015517FDABE11231622BA /* libPods-CYYRequestTool.a */,
+				01F3EEB1AA22CC9A744404C7 /* libPods-CYYRequestToolTests.a */,
+				BA0A678BC81E2F6A8E95F035 /* libPods-CYYRequestToolUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68B7154DFB35E5B3BB499C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1135161823224B732F6297EA /* Pods-CYYRequestTool.debug.xcconfig */,
+				05E1E8C373C3B1A917CE918A /* Pods-CYYRequestTool.release.xcconfig */,
+				9D8DBE72EBF47774CA04F398 /* Pods-CYYRequestToolTests.debug.xcconfig */,
+				266DEFB730C69CF6BE4C7E47 /* Pods-CYYRequestToolTests.release.xcconfig */,
+				1D5524F0B9E5C183C26F3641 /* Pods-CYYRequestToolUITests.debug.xcconfig */,
+				8592EC176AAB5FCA884F9B5D /* Pods-CYYRequestToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC4B5151E5008F100A5E4CB /* Build configuration list for PBXNativeTarget "CYYRequestTool" */;
 			buildPhases = (
+				0E405222237F153451CC1BB7 /* [CP] Check Pods Manifest.lock */,
 				6EC4B4E41E5008F100A5E4CB /* Sources */,
 				6EC4B4E51E5008F100A5E4CB /* Frameworks */,
 				6EC4B4E61E5008F100A5E4CB /* Resources */,
+				9308994A8C7FC72A8250A4FF /* [CP] Embed Pods Frameworks */,
+				999FC3B26C4B5468C90D66EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC4B5181E5008F100A5E4CB /* Build configuration list for PBXNativeTarget "CYYRequestToolTests" */;
 			buildPhases = (
+				988F820A6A379813DFB402E3 /* [CP] Check Pods Manifest.lock */,
 				6EC4B4FD1E5008F100A5E4CB /* Sources */,
 				6EC4B4FE1E5008F100A5E4CB /* Frameworks */,
 				6EC4B4FF1E5008F100A5E4CB /* Resources */,
+				EF31590F474979A5FB1BA39C /* [CP] Embed Pods Frameworks */,
+				0135A6F16B8BC7379FFA8376 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC4B51B1E5008F100A5E4CB /* Build configuration list for PBXNativeTarget "CYYRequestToolUITests" */;
 			buildPhases = (
+				377A9F37995A756877FCBC74 /* [CP] Check Pods Manifest.lock */,
 				6EC4B5081E5008F100A5E4CB /* Sources */,
 				6EC4B5091E5008F100A5E4CB /* Frameworks */,
 				6EC4B50A1E5008F100A5E4CB /* Resources */,
+				7FA0732B1208594F23E5B8EB /* [CP] Embed Pods Frameworks */,
+				5F486199F3137EA138C6CC6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +322,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0135A6F16B8BC7379FFA8376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestToolTests/Pods-CYYRequestToolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E405222237F153451CC1BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		377A9F37995A756877FCBC74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F486199F3137EA138C6CC6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestToolUITests/Pods-CYYRequestToolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA0732B1208594F23E5B8EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestToolUITests/Pods-CYYRequestToolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9308994A8C7FC72A8250A4FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestTool/Pods-CYYRequestTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		988F820A6A379813DFB402E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		999FC3B26C4B5468C90D66EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestTool/Pods-CYYRequestTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF31590F474979A5FB1BA39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYYRequestToolTests/Pods-CYYRequestToolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EC4B4E41E5008F100A5E4CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +468,7 @@
 				6EC4B4F31E5008F100A5E4CB /* ViewController.m in Sources */,
 				6EC4B4F01E5008F100A5E4CB /* AppDelegate.m in Sources */,
 				6EC4B4ED1E5008F100A5E4CB /* main.m in Sources */,
+				6EC4B5201E50097800A5E4CB /* CYYRequestTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +613,7 @@
 		};
 		6EC4B5161E5008F100A5E4CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1135161823224B732F6297EA /* Pods-CYYRequestTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYYRequestTool/Info.plist;
@@ -431,6 +625,7 @@
 		};
 		6EC4B5171E5008F100A5E4CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E1E8C373C3B1A917CE918A /* Pods-CYYRequestTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYYRequestTool/Info.plist;
@@ -442,6 +637,7 @@
 		};
 		6EC4B5191E5008F100A5E4CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8DBE72EBF47774CA04F398 /* Pods-CYYRequestToolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CYYRequestToolTests/Info.plist;
@@ -454,6 +650,7 @@
 		};
 		6EC4B51A1E5008F100A5E4CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266DEFB730C69CF6BE4C7E47 /* Pods-CYYRequestToolTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CYYRequestToolTests/Info.plist;
@@ -466,6 +663,7 @@
 		};
 		6EC4B51C1E5008F100A5E4CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5524F0B9E5C183C26F3641 /* Pods-CYYRequestToolUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CYYRequestToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +675,7 @@
 		};
 		6EC4B51D1E5008F100A5E4CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8592EC176AAB5FCA884F9B5D /* Pods-CYYRequestToolUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CYYRequestToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
